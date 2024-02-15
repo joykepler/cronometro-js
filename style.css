@@ -15,19 +15,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10rem;
+    font-family: "Orbitron", sans-serif;
 }
 
 .container__titulo {
     font-size: 50px;
-    font-family: "Orbitron", sans-serif;
     text-align: center;
     color: #F99417;
+    font-weight: 500;
 }
 
 .timer {
     display: flex;
     justify-content: center;
-    font-family: "Orbitron", sans-serif;
     font-weight: 600;
     font-size: 5rem;
     color: #5D3891;
@@ -40,11 +40,11 @@ body {
 }
 
 .btn {
-    font-family: "Orbitron", sans-serif;
     font-size: 2rem;
     color: #F99417;
     background-color: transparent;
     border: none;
+    font-family: "Orbitron", sans-serif;
 }
 
 .btn:hover {
