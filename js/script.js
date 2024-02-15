@@ -38,9 +38,6 @@ function startTimer() {
   }, 10)
 }
 
-startBtn.style.display = "none";
-pauseBtn.style.display = "block";
-
 function pauseTimer() {
     isPaused = true;
     pauseBtn.style.display = "none";
